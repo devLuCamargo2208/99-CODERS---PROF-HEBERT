@@ -1,3 +1,109 @@
 body {
     background-color: #e6dddd;
 }
+
+h1, h2, h3, h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: ghostwhite;
+    text-align: center;
+}
+
+h1, h2 {
+    padding: 1%;
+    background-color: cornflowerblue;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+h3, h4 {
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: italic;
+    color: cornflowerblue;
+}
+
+/*
+img{
+    width: 100px;
+    border-radius: 50px;
+}
+*/
+
+.email {
+    border-radius: 5px;
+    border-color: cornflowerblue;
+    height: 30px;
+    min-width: 259px;
+    font-style: normal;
+}
+
+.senha {
+    border-radius: 5px;
+    border-color: cornflowerblue;
+    height: 30px;
+    min-width: 259px;
+    font-style: normal;
+}
+
+.btn {
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    border: 0px;
+    height: 30px;
+    min-width: 130px;
+    color: ghostwhite;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn:hover {
+    background-color: rgb(8, 49, 124);
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0px;
+    height: 30px;
+    min-width: 130px;
+    color: rgb(220, 238, 60);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.btn-res {
+    background-color: rgb(170, 22, 12);
+    border-radius: 5px;
+    border: 0px;
+    height: 30px;
+    min-width: 130px;
+    color: ghostwhite;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-res:hover {
+    background-color: rgb(238, 170, 166);
+    border-radius: 5px;
+    border: 0px;
+    height: 30px;
+    min-width: 130px;
+    color: rgb(3, 3, 3);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.ico-header {
+    width: 100px;
+    border-radius: 50px;
+}
+
+#ico-header {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.logotipo {
+    width: 120px;
+    height: 60px;
+    border-radius: 3px;
+}
