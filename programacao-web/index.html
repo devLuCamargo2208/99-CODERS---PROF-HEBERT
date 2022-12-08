@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
     <title>Cadastro</title>
+    <script type="text/javascript">
+      function Aviso(msg){
+        alert(msg);
+      }
+    </script>
   </head>
 
   <body>
@@ -21,7 +26,7 @@
         <input type="password" class="senha" placeholder="Senha" /> <br /><br />
 
         <input type="submit" class="btn" value="Fazer Login" />
-        <input type="reset" class="btn-res" value="Reset" /> <br /><br />
+        <input onclick="Aviso('Campos limpos com sucesso');" type="reset" class="btn-res" value="Reset" /> <br /><br />
         <a
           href="../programacao-web/fontes/esqueci-senhas.html"
           target="_blank"
