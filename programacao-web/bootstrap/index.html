@@ -6,38 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Pagina do 99 Coders" />
     <meta name="keywords" content="programacao, web, apps" />
-    <link rel="stylesheet" href="../bootstrap/styles.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
     <title>teste-bootstrap</title>
     <script type="text/javascript">
-      function Aviso(msg){
+      function Aviso(msg) {
         alert(msg);
       }
     </script>
   </head>
 
   <body>
-    <h1>Aplicando style usando o <mark>BootStrap</mark> </h1>
-    <p>Importante lembrar que esta página foi e está com sua versão original customizada somente com CSS</p>
     <center>
+    <h1>Aplicando style usando o <mark>BootStrap</mark></h1>
+    <h4>
+      Importante lembrar que esta página está com utilizando como gerenciador de style o Bootstrap,
+      diferentemente da sua versão original <br />
+      que foi 100% customizada somente com CSS raiz!
+    </h4>
+    
       <h1>Login</h1>
 
       <form action="index.html" method="POST" class="">
-        <img id="ico-header" src="../img/lock.png" alt="lock.png" /> <br /><br />
+        <img id="ico-header" src="../img/lock.png" alt="lock.png" />
+        <br /><br />
         <input type="text" class="email" placeholder="E-mail" /> <br /><br />
         <input type="password" class="senha" placeholder="Senha" /> <br /><br />
 
-        <input type="submit" class="buttonClass" value="Fazer Login" />
-        <input onclick="Aviso('Campos limpos com sucesso');" type="reset" class="btn-res" value="Reset" /> <br /><br />
-        <a
-          href=".././fontes/esqueci-senhas.html"
-          target="_blank">Esqueci a minha senha</a
-        >        
+        <input type="submit" class="btn btn-primary" value="Fazer Login" />
+        <input
+          onclick="Aviso('Campos limpos com sucesso');"
+          type="reset"
+          class="btn btn-danger"
+          value="Reset"
+        />
+        <br /><br />
+        <a href=".././fontes/esqueci-senhas.html" target="_blank"
+          >Esqueci a minha senha</a
+        >
       </form>
-<br> <br>
-      <img class="logotipo" src="img/favicon_io (1)/android-chrome-512x512.png" alt="">
+      <br />
+      <br />
+      <img
+        class="logotipo"
+        src="../img/favicon_io (1)/android-chrome-512x512.png"
+        alt=""
+      />
       <h3>Dev.LuCamargo2208</h3>
     </center>
-
   </body>
 </html>
